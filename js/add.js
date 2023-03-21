@@ -18,17 +18,17 @@ gsap.fromTo('.header-text',
 );
 gsap.fromTo('#section-1', 
   { opacity: 1 }, 
-  { opacity: 0, scrollTrigger: { trigger: '#section-1', start: "bottom center", end: "140% center", scrub: true }}
+  { opacity: 0, scrollTrigger: { trigger: '#section-2', start: "top center", end: "center center", scrub: true }}
 );
 gsap.fromTo('#section-2', 
   { opacity: 1 }, 
-  { opacity: 0, scrollTrigger: { trigger: '#section-2', start: "bottom center", end: "140% center", scrub: true }}
+  { opacity: 0, scrollTrigger: { trigger: '#section-3', start: "top center", end: "center center", scrub: true }}
 );
 gsap.fromTo('#section-3', 
   { opacity: 1 }, 
-  { opacity: 0, scrollTrigger: { trigger: '#section-3', start: "bottom center", end: "140% center", scrub: true }}
+  { opacity: 0, scrollTrigger: { trigger: '#section-4', start: "top center", end: "center center", scrub: true }}
 );
 gsap.fromTo('#section-4', 
   { opacity: 1 }, 
-  { opacity: 0, scrollTrigger: { trigger: '#section-4', start: "bottom center", end: "140% center", scrub: true }}
+  { opacity: 0, scrollTrigger: { trigger: '#section-5', start: "top center", end: "center center", scrub: true }}
 );
